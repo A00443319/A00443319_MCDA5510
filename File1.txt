@@ -1,0 +1,5 @@
+#A00446529
+
+Public int (int a, int b){
+	return a*b;
+}
