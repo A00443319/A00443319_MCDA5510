@@ -1,0 +1,5 @@
+#A00446529
+
+Public int power(int a, int b){
+	return (Pow(a,b)–Math.Pow())
+}
