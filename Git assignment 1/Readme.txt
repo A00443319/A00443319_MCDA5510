@@ -1,6 +1,6 @@
-Student 1 - Shivani
-Student 2 - Akshay
-Student 3 - Dipesh
+Student 1 - Shivani A00438340
+Student 2 - Akshay	A000443319
+Student 3 - Dipesh	A00446529
 
 
 Features added:
@@ -12,3 +12,5 @@ Features added:
 5) Modulus 
 6) Average
 7) Power
+8) Min-Math.max()
+9) Max-Math.max()
