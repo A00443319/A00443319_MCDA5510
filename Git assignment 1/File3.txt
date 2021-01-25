@@ -14,3 +14,8 @@ Public int findAverage (int a, int b) {
 	return Avg(a,b)-Math.avg();
 }
 
+#A00446529
+
+Public int power(int a, int b){
+	return (Pow(a,b)–Math.Pow())
+}

@@ -12,3 +12,8 @@ Public int subtraction (int a, int b) {
 	return a-b;
 }
 
+#A00446529
+
+Public int multi (int a, int b){
+	return (a*b);
+}
