@@ -1,0 +1,6 @@
+#A000443319
+import Math
+Public int findAverage (int a, int b) {
+	return Avg(a,b)-Math.avg();
+}
+
