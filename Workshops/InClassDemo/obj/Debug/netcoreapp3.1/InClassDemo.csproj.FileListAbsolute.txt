@@ -54,7 +54,6 @@ D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
@@ -151,14 +150,8 @@ D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\InClassDemo.TagHelpers.input.cache
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\InClassDemo.TagHelpers.output.cache
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\InClassDemo.RazorCoreGenerate.cache
-D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Create.cshtml.g.cs
-D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Delete.cshtml.g.cs
-D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Details.cshtml.g.cs
-D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Edit.cshtml.g.cs
-D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Index.cshtml.g.cs
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
@@ -170,3 +163,13 @@ D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\InClassDemo.dll
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\InClassDemo.pdb
 D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\InClassDemo.genruntimeconfig.cache
+D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\InclassDemoCustomers\Create.cshtml.g.cs
+D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\InclassDemoCustomers\Delete.cshtml.g.cs
+D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\InclassDemoCustomers\Details.cshtml.g.cs
+D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\InclassDemoCustomers\Edit.cshtml.g.cs
+D:\Akshay\SMU MCDA\First Sem\SoftwareDev_5510\Tutorials\Git workspace\A00443319_MCDA5510\Workshops\InClassDemo\obj\Debug\netcoreapp3.1\Razor\Views\InclassDemoCustomers\Index.cshtml.g.cs

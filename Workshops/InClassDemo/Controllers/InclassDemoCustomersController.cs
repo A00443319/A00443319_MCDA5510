@@ -2,93 +2,92 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using InClassDemo.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using InClassDemo;
-using InClassDemo.Models;
 
 namespace InClassDemo.Controllers
 {
-    public class CustomersController : Controller
+    public class InclassDemoCustomersController : Controller
     {
-        private readonly CustomerContext _context;
+        private readonly _5510Context _context;
 
-        public CustomersController(CustomerContext context)
+        public InclassDemoCustomersController(_5510Context context)
         {
             _context = context;
         }
 
-        // GET: Customers
+        // GET: InclassDemoCustomers
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Customers.ToListAsync());
+            return View(await _context.InclassDemoCustomer.ToListAsync());
         }
 
-        // GET: Customers/Details/5
-        public async Task<IActionResult> Details(string id)
+        // GET: InclassDemoCustomers/Details/5
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var customer = await _context.Customers
+            var inclassDemoCustomer = await _context.InclassDemoCustomer
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (customer == null)
+            if (inclassDemoCustomer == null)
             {
                 return NotFound();
             }
 
-            return View(customer);
+            return View(inclassDemoCustomer);
         }
 
-        // GET: Customers/Create
+        // GET: InclassDemoCustomers/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Customers/Create
+        // POST: InclassDemoCustomers/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,FirstName,LastName,Addrses1,City,Province,Country,Postal,Phone,Email")] Customer customer)
+        public async Task<IActionResult> Create([Bind("Id,FName,LName,Email")] InclassDemoCustomer inclassDemoCustomer)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(customer);
+                _context.Add(inclassDemoCustomer);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(customer);
+            return View(inclassDemoCustomer);
         }
 
-        // GET: Customers/Edit/5
-        public async Task<IActionResult> Edit(string id)
+        // GET: InclassDemoCustomers/Edit/5
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var customer = await _context.Customers.FindAsync(id);
-            if (customer == null)
+            var inclassDemoCustomer = await _context.InclassDemoCustomer.FindAsync(id);
+            if (inclassDemoCustomer == null)
             {
                 return NotFound();
             }
-            return View(customer);
+            return View(inclassDemoCustomer);
         }
 
-        // POST: Customers/Edit/5
+        // POST: InclassDemoCustomers/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,FirstName,LastName,Addrses1,City,Province,Country,Postal,Phone,Email")] Customer customer)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,FName,LName,Email")] InclassDemoCustomer inclassDemoCustomer)
         {
-            if (id != customer.Id)
+            if (id != inclassDemoCustomer.Id)
             {
                 return NotFound();
             }
@@ -97,12 +96,12 @@ namespace InClassDemo.Controllers
             {
                 try
                 {
-                    _context.Update(customer);
+                    _context.Update(inclassDemoCustomer);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CustomerExists(customer.Id))
+                    if (!InclassDemoCustomerExists(inclassDemoCustomer.Id))
                     {
                         return NotFound();
                     }
@@ -113,41 +112,41 @@ namespace InClassDemo.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(customer);
+            return View(inclassDemoCustomer);
         }
 
-        // GET: Customers/Delete/5
-        public async Task<IActionResult> Delete(string id)
+        // GET: InclassDemoCustomers/Delete/5
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var customer = await _context.Customers
+            var inclassDemoCustomer = await _context.InclassDemoCustomer
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (customer == null)
+            if (inclassDemoCustomer == null)
             {
                 return NotFound();
             }
 
-            return View(customer);
+            return View(inclassDemoCustomer);
         }
 
-        // POST: Customers/Delete/5
+        // POST: InclassDemoCustomers/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(string id)
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var customer = await _context.Customers.FindAsync(id);
-            _context.Customers.Remove(customer);
+            var inclassDemoCustomer = await _context.InclassDemoCustomer.FindAsync(id);
+            _context.InclassDemoCustomer.Remove(inclassDemoCustomer);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool CustomerExists(string id)
+        private bool InclassDemoCustomerExists(int id)
         {
-            return _context.Customers.Any(e => e.Id == id);
+            return _context.InclassDemoCustomer.Any(e => e.Id == id);
         }
     }
 }

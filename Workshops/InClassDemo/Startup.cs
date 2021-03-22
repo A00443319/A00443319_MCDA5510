@@ -1,3 +1,4 @@
+using InClassDemo.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,7 +27,8 @@ namespace InClassDemo
         {
             services.AddControllersWithViews();
             
-            services.AddDbContext<CustomerContext>(options => options.UseInMemoryDatabase("Customer"));
+           services.AddDbContext<_5510Context>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("myDbConn")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
